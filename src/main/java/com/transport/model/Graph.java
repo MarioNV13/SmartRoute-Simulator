@@ -11,8 +11,9 @@ public class Graph {
         nodes.putIfAbsent(from, new Node(from));
         nodes.putIfAbsent(to, new Node(to));
 
-        // we add the road (Edge) de la sursa la destiantie
+        // we add the road (Edge) from source to destination and vice versa
         nodes.get(from).addEdge(new Edge(nodes.get(to), distance, roadType));
+        nodes.get(to).addEdge(new Edge(nodes.get(from), distance, roadType));
     }
     public Map<String, Node> getNodes() {
         return nodes;
