@@ -1,0 +1,51 @@
+Bucuresti,Pitesti,115,Autostrada
+Pitesti,Sibiu,160,DN
+Sibiu,Deva,120,Autostrada
+Deva,Timisoara,150,Autostrada
+Timisoara,Arad,55,Autostrada
+Arad,Oradea,115,DN
+Oradea,Satu Mare,135,DN
+Satu Mare,Baia Mare,60,DN
+Baia Mare,Zalau,80,DN
+Zalau,Cluj-Napoca,85,DN
+Cluj-Napoca,Targu Mures,110,Autostrada
+Targu Mures,Bistrita,90,DN
+Bistrita,Suceava,190,DN
+Suceava,Botosani,45,DN
+Botosani,Iasi,115,DN
+Iasi,Vaslui,75,DN
+Vaslui,Bacau,85,DN
+Bacau,Piatra Neamt,60,DN
+Bacau,Focsani,105,DN
+Focsani,Galati,90,DN
+Galati,Braila,20,DN
+Braila,Tulcea,90,DN
+Tulcea,Constanta,125,DN
+Constanta,Bucuresti,225,Autostrada
+Bucuresti,Calarasi,120,DN
+Calarasi,Slobozia,45,DN
+Slobozia,Buzau,90,DN
+Bucuresti,Giurgiu,65,DN
+Bucuresti,Alexandria,90,DN
+Alexandria,Slatina,130,DN
+Slatina,Craiova,55,DN
+Craiova,Drobeta-Turnu Severin,115,DN
+Drobeta-Turnu Severin,Targu Jiu,90,DN
+Targu Jiu,Ramnicu Valcea,115,DN
+Ramnicu Valcea,Pitesti,65,DN
+Ramnicu Valcea,Sibiu,100,DN
+Bucuresti,Targoviste,80,DN
+Targoviste,Ploiesti,50,DN
+Ploiesti,Brasov,115,DN
+Brasov,Sfantu Gheorghe,35,DN
+Sfantu Gheorghe,Miercurea Ciuc,100,DN
+Miercurea Ciuc,Targu Mures,125,DN
+Alba Iulia,Sibiu,75,Autostrada
+Alba Iulia,Cluj-Napoca,100,Autostrada
+Drobeta-Turnu Severin,Resita,150,DN
+Resita,Timisoara,100,DN
+Slobozia,Braila,95,DN
+Targoviste,Pitesti,55,DN
+Ploiesti,Buzau,70,DN
+Suceava,Piatra Neamt,105,DN
+Iasi,Piatra Neamt,130,DN
