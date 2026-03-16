@@ -2,12 +2,12 @@ package com.transport.model;
 
 public class Edge {
     private Node destination;
-    private double distance;
+    private double time;
     private String roadType;
 
-    public Edge(Node destination, double distance,  String roadType) {
+    public Edge(Node destination, double time,  String roadType) {
         this.destination = destination;
-        this.distance = distance;
+        this.time = time;
         this.roadType = roadType;
     }
 
@@ -19,12 +19,12 @@ public class Edge {
         this.destination = destination;
     }
 
-    public double getDistance() {
-        return distance;
+    public double getTime() {
+        return time;
     }
 
-    public void setDistance(double distance) {
-        this.distance = distance;
+    public void setTime(double Time) {
+        this.time = time;
     }
 
     public String getRoadType() {
