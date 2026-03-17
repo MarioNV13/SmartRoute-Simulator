@@ -20,6 +20,14 @@ public class Node {
         this.name = name;
     }
 
+    public List<Edge> getNeighbours() {
+        return neighbours;
+    }
+
+    public void setNeighbours(List<Edge> neighbours) {
+        this.neighbours = neighbours;
+    }
+
     public void addEdge(Edge edge) {
         this.neighbours.add(edge);
     }
