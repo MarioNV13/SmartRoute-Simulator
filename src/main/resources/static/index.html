@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Route Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📍 Smart Route Simulator</h1>
+        <h3> County seat cities in Romania</h3>
+        <p class="disclaimer">
+            Note: This simulator is for guidance only. Traffic or unforeseen events may affect travel time.
+        </p>
+        <div class="input-section">
+            <input type="text" id="startInput" placeholder="Departure city">
+            <input type="text" id="destinationInput" placeholder="Destination city">
+            <button onclick="findRoute()">Search Route</button>
+        </div>
+        <div id="resultCard" class="result-card hidden">
+            <h3>Optimal path</h3>
+            <p id="pathDisplay"></p>
+            <div class="time-badge">
+                <span>Estimated time: </span>
+                <span id="timeDisplay"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
