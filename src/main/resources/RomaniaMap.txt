@@ -49,3 +49,5 @@ Targoviste,Pitesti,55,MainRoad
 Ploiesti,Buzau,70,MainRoad
 Suceava,Piatra Neamt,105,MainRoad
 Iasi,Piatra Neamt,130,MainRoad
+Galati,Vaslui,156,MainRoad
+Focsani,Vaslui,142,MainRoad

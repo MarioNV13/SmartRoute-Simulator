@@ -46,8 +46,8 @@ public class Graph {
 
     public void addRoad(String from, String to, double distance, String roadType){
         //we adjust the speed for the type of the road
-        //130 for highways and 90 for mainroads (including other factors which can change the speed)
-        double speed=roadType.equalsIgnoreCase("Highway") ? 130.0 : 90;
+        //130 for highways and 80 for mainroads (including other factors which can change the speed)
+        double speed=roadType.equalsIgnoreCase("Highway") ? 130.0 : 80;
         double time=distance/speed; // the time to travel the distance between 2 cities
 
         // if the city doesn't exist, we create it
