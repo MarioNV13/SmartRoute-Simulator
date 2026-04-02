@@ -3,18 +3,18 @@ package com.transport.service;
 import com.transport.model.Edge;
 import com.transport.model.Graph;
 import com.transport.model.Node;
-import com.transport.model.RouteResponse; // Importăm noul model
+import com.transport.model.RouteResponse; // Import the new model
 
 import java.util.*;
 
 public class DijkstraWeb {
 
-    // Metoda returnează acum un RouteResponse în loc de void
+    //The method is returning now a RouteResponse instead of void
     public static RouteResponse findFastestPath(Graph graph, String startCity, String endCity) {
         // We verify if the cities are in the our map
         Map<String, Node> nodes = graph.getNodes();
         if(!nodes.containsKey(startCity) || !nodes.containsKey(endCity)){
-            // În web, returnăm null sau un obiect gol dacă orașele nu există
+            // We will return null or an empty object if the cities doesnt exist (In web)
             return null;
         }
         Node startNode = nodes.get(startCity);
@@ -63,7 +63,7 @@ public class DijkstraWeb {
             }
         }
 
-        // În loc de print, apelăm o metodă care pregătește obiectul de răspuns
+        //Instead of print, we call a method which prepare the response object
         return prepareWebResponse(minTimes.get(endNode), parents, endNode);
     }
 
@@ -90,6 +90,7 @@ public class DijkstraWeb {
         String formattedTime = hours + "h " + minutes + "min";
 
         // Returnăm obiectul pe care JavaScript îl va primi ca JSON
+        // We return the object received by JS ( JSON )
         return new RouteResponse(path, formattedTime);
     }
 }
