@@ -13,7 +13,7 @@ body {
     padding: 30px;
     border-radius: 15px; /* Round corners */
     box-shadow: 0 10px 25px rgba(0,0,0,0.1); /* Fine shadow under the box */
-    width: 400px;
+    width: 1000px;
     text-align: center;
 }
 
@@ -49,4 +49,39 @@ button:hover {
     padding: 15px;
     background-color: #e8f5e9;
     border-left: 5px solid #27ae60;
+}
+/* Orientative Romania Map*/
+.map-container {
+    margin-top: 25px;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.map-container h4 {
+    margin-bottom: 15px;
+    color: #2c3e50;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.static-map {
+    width: 100%; /* Adjust the map in the card */
+    max-width: 800px; /* Limit maximum scale */
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #ecf0f1;
+    transition: transform 0.3s ease;
+}
+
+/* Discreet zoom effect when put the mouse on it */
+.static-map:hover {
+    transform: scale(1.02);
+    cursor: zoom-in;
+}
+
+input:focus {
+    outline: none;
+    border-color: #27ae60; /* Green border when you want to type any cities */
+    box-shadow: 0 0 5px rgba(39, 174, 96, 0.2);
 }
