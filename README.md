@@ -35,8 +35,8 @@ src/main/java/com/transport/
 Roadmap
 [x] Functional CLI Version.
 
-[ ] Spring Boot Integration: Transitioning to a REST API.
+[x] Spring Boot Integration: Transitioning to a REST API.
 
-[ ] Web Interface: HTML5/JavaScript frontend with interactive maps.
+[x] Web Interface: HTML5/JavaScript frontend with interactive maps.
 
 [ ] Real-time Traffic: Adding dynamic weights to edges.
